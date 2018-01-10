@@ -6,17 +6,19 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Test Phonegab</title>
+			<script type="text/javascript" src="cordova.js"></script> 
 		<script type="text/javascript" >
 			function test1(){
 				window.location='http://www.kea.dk';
 			}
 			function test2(){
-				window.open("http://www.kea.dk","_self");
+				//window.open("http://www.kea.dk","_self");
+				window.open('http://www.kea.dk', '_system');
 			}	
 			function test3() {
 				var x = document.createElement("IFRAME");
 				x.setAttribute("src","http://www.kea.dk");
-				x.setAttribute("width", "500");
+				x.setAttribute("width", "00");
 				document.body.appendChild(x);
 			}
 			
