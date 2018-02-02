@@ -12,7 +12,7 @@ function openBrowser(url) {
    var target = '_blank';
    var options = "location = yes"
    var ref = cordova.InAppBrowser.open(url, target, options);
-   
+ /*  
    ref.addEventListener('loadstart', loadstartCallback);
    ref.addEventListener('loadstop', loadstopCallback);
    ref.addEventListener('loadloaderror', loaderrorCallback);
@@ -36,7 +36,7 @@ function openBrowser(url) {
    function exitCallback() {
       console.log('Browser is closed...')
 	  //document.getElementById("log").innerHTML ='Browser is closed...';
-   }
+   }*/
 }
 
 
